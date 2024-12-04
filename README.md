@@ -1,5 +1,4 @@
 # dio_project
-
 # Projeto de Transfer Learning em Python
 
 Este projeto utiliza Transfer Learning com a rede VGG16 para classificar imagens de leões e tigres. Aproveitando os pesos pré-treinados da VGG16 no ImageNet, o modelo foi ajustado para classificar duas classes (leão e tigre) a partir de imagens extraídas de um arquivo .zip. As imagens foram pré-processadas para o formato adequado, com resolução de 224x224 pixels e normalizadas. A última camada da VGG16 foi substituída por uma camada densa para classificação binária, enquanto as camadas anteriores foram congeladas. O modelo foi treinado e testado com dados balanceados, monitorando métricas como perda e acurácia. O projeto demonstra a eficácia do Transfer Learning em cenários com dados limitados.
